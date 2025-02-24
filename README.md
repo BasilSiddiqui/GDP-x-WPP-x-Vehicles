@@ -1,16 +1,6 @@
-Here is a `README.md` file for your project. It provides an overview of the data sources, the analyses performed, and the findings:
-
----
-
-# Data Science Life Cycle Project
-
 ## Overview
 
-This project is part of **F78DS Data Science Life Cycle - Coursework 1**. It involves analyzing data related to **GDP**, **population**, and **vehicle sales** for three countries: **United Kingdom (UK)**, **United Arab Emirates (UAE)**, and **Malaysia**. The data is sourced from different datasets, and various analyses and visualizations are conducted to derive meaningful insights.
-
-### Author Information:
-- **Name**: Basil Rehan Siddiqui
-- **Student ID**: H00435838
+It involves analyzing data related to **GDP**, **population**, and **vehicle sales** for three countries: **United Kingdom (UK)**, **United Arab Emirates (UAE)**, and **Malaysia**. The data is sourced from different datasets, and various analyses and visualizations are conducted to derive meaningful insights using **pandas** and **matplotlib.pyplot**.
 
 ## Datasets Used
 
@@ -76,39 +66,6 @@ This project is part of **F78DS Data Science Life Cycle - Coursework 1**. It inv
 5. **GDP per Capita**:
    - By merging the GDP and population data, the **GDP per capita** for each country was calculated. The UK, with its higher GDP, has a much higher GDP per capita compared to the UAE and Malaysia.
 
-## Installation and Setup
-
-### Prerequisites
-
-- Python 3.x
-- Required Python libraries:
-  - `pandas`
-  - `matplotlib`
-  - `openpyxl` (for reading `.xlsx` files)
-
-You can install the required libraries using `pip`:
-
-```bash
-pip install pandas matplotlib openpyxl xlrd
-```
-
-### Dataset Files
-
-Ensure you have the following dataset files in your project directory:
-1. `GDP.xls` - GDP data in Excel format.
-2. `WPP2024_ByAge.csv` - Population data in CSV format.
-3. `vehicle.json` - Vehicle sales data in JSON format.
-
-### Running the Analysis
-
-1. Clone the repository or download the project files.
-2. Place the dataset files in the project directory.
-3. Run the Python script (`data_analysis.py`) to execute the analysis.
-
-```bash
-python data_analysis.py
-```
-
 This will generate various visualizations, including bar charts, pie charts, and line graphs, which will be displayed on the screen.
 
 ## Conclusion
@@ -116,5 +73,3 @@ This will generate various visualizations, including bar charts, pie charts, and
 This project demonstrates how to analyze and visualize multiple datasets, gain insights, and merge data from different sources. It highlights the differences in GDP, population, and vehicle sales for the selected countries and provides a comprehensive understanding of their economic and demographic trends.
 
 ---
-
-Let me know if you need any adjustments or additions!
